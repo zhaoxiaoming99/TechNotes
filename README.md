@@ -1,4 +1,4 @@
-# NPM常用命令
+# npm常用命令
 
 ```bash
 npm list  // 查看本地已安装模块清单
@@ -8,3 +8,4 @@ npm view [packageName] version // 查看模块远程最新版本
 npm view [packageName] versions // 查看模块远程所有版本
 ```
 
+# cordova常用命令
