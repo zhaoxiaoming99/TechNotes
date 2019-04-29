@@ -7,5 +7,6 @@ npm info [packageName] //查看模块的详细信息 包括各版本号等
 npm view [packageName] version // 查看模块远程最新版本
 npm view [packageName] versions // 查看模块远程所有版本
 ```
-
-# cordova常用命令
+# ECMAScript 6 入门
+## Module 的语法
+http://es6.ruanyifeng.com/#docs/module
