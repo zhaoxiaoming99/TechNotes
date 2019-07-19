@@ -31,6 +31,9 @@ $ echo $PATH
 * 修改环境变量
 ```bash
 $ vim ~/.bash_profile
+
+export PATH=/usr/local/mysql/bin:/Users/zhaoxm/bin/apache-maven-3.6.1/bin:$PATH
+
 ```
 
 注：如果编辑profile文件没有写正确，会导致在命令行下vim touch等命令不能够识别如报错：vim: command not found
