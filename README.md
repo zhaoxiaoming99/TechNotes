@@ -30,7 +30,10 @@ $ echo $PATH
 
 * 修改环境变量
 ```bash
-$ vim /etc/profile
-vim ~/.bash_profile
-export PATH="<PATH 1>:<PATH 2>:<PATH 3>:------:<PATH N>:$PATH"
+$ vim ~/.bash_profile
 ```
+
+注：如果编辑profile文件没有写正确，会导致在命令行下vim touch等命令不能够识别如报错：vim: command not found
+
+解决办法：直接在终端执行以下命令即可解决：
+export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
