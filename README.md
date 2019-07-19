@@ -31,5 +31,6 @@ $ echo $PATH
 * 修改环境变量
 ```bash
 $ vim /etc/profile
+vim ~/.bash_profile
 export PATH="<PATH 1>:<PATH 2>:<PATH 3>:------:<PATH N>:$PATH"
 ```
