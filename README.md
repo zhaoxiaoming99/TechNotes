@@ -40,3 +40,5 @@ export PATH=/usr/local/mysql/bin:/Users/zhaoxm/bin/apache-maven-3.6.1/bin:$PATH
 
 解决办法：直接在终端执行以下命令即可解决：
 export PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
+
+https://www.cnblogs.com/vitasyuan/p/7395601.html?utm_source=debugrun&utm_medium=referral
