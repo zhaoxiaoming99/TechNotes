@@ -31,5 +31,5 @@ $ echo $PATH
 * 修改环境变量
 ```bash
 $ vim /etc/profile
-export PATH="/opt/STM/STLinux-2.3/devkit/sh4/bin:$PATH"
+export PATH="<PATH 1>:<PATH 2>:<PATH 3>:------:<PATH N>:$PATH"
 ```
