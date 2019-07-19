@@ -21,3 +21,15 @@ http://es6.ruanyifeng.com/#docs/module
 # Vue
 * 包学会之浅入浅出 Vue.js：开学篇  
 https://juejin.im/entry/58df6632a0bb9f0069e3ad04
+
+# MacBook
+* 查看环境变量
+```bash
+$ echo $PATH
+```
+
+* 修改环境变量
+```bash
+$ vim /etc/profile
+export PATH="/opt/STM/STLinux-2.3/devkit/sh4/bin:$PATH"
+```
