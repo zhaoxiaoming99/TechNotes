@@ -12,7 +12,8 @@ pushd "C:\cncdr-1.0\dev\backend"
 mvn clean install -Dmaven.test.skip=true
 ```
 
-
+## pom.xml 配置打包前端脚本
+```xml
 <plugin>
  <groupId>org.codehaus.mojo</groupId>
  <artifactId>exec-maven-plugin</artifactId>
@@ -34,3 +35,4 @@ mvn clean install -Dmaven.test.skip=true
 	</execution>
   </executions>
 </plugin> 
+```
