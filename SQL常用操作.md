@@ -1,3 +1,14 @@
+# 修改表的schema，修改列字段类型
+```SQL
+ALTER SCHEMA dbo TRANSFER [fun].[value_set_master]
+GO  
+ALTER SCHEMA dbo TRANSFER [fun].[column_display_name]
+GO  
+
+alter table demographics alter column [create_timestamp] datetime
+alter table demographics alter column [update_timestamp] datetime
+```
+
 # 删除数据库下面的所有表
 
 ```SQL
@@ -11,11 +22,3 @@ exec(@sql)
 print @sql
 end
 ```
-# 修改表的schema，修改列字段类型
-ALTER SCHEMA dbo TRANSFER [fun].[value_set_master]
-GO  
-ALTER SCHEMA dbo TRANSFER [fun].[column_display_name]
-GO  
-
-alter table demographics alter column [create_timestamp] datetime
-alter table demographics alter column [update_timestamp] datetime
